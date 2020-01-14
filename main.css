@@ -1,0 +1,65 @@
+body {
+  background: rgb(0, 0, 54);
+  color: antiquewhite;
+}
+
+header {
+  height: 50px;
+  width: 100%;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.432);
+}
+
+.main {
+  margin-top: 5%;
+  margin-left: 20%;
+}
+
+.column {
+	column-count: 3;
+	column-gap: 20px;
+	column-width: 250px;
+  column-rule: 1px solid #ccc;
+  text-align: center;
+}
+
+a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+img {
+  width: 300px;
+  margin-left: 300px;
+}
+
+.main-post {
+  width: 500px;
+  height: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: rgba(0, 0, 255, 0.096);
+  width: 900px;
+}
+
+p {
+  text-indent: 20px; /* Отступ первой строки*/
+  font-family: monospace;
+  font-size: 16px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+#comment {
+  
+}
